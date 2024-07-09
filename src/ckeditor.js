@@ -12,7 +12,7 @@ import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
-// import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
+import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 // import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters';
 // import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
 
@@ -34,7 +34,7 @@ ClassicEditor.builtinPlugins = [
 	Superscript,
 	CKFinder, // Image
 	Clipboard,
-	// RemoveFormat,
+	RemoveFormat,
 	// SpecialCharacters,
 	// SourceEditing,
 
