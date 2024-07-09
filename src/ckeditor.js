@@ -11,8 +11,7 @@ import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
-import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters';
-// import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
+import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
@@ -31,8 +30,7 @@ ClassicEditor.builtinPlugins = [
 	Strikethrough,
 	Superscript,
 	CKFinder, // Image
-	SpecialCharacters,
-	// SourceEditing,
+	SourceEditing,
 
 	Essentials,
 	Bold,
