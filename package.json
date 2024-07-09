@@ -97,6 +97,6 @@
     }
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-remove-format": "^42.0.0"
+    "@ckeditor/ckeditor5-source-editing": "42.0.0"
   }
 }
